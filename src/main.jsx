@@ -193,7 +193,7 @@ function HomePage() {
               Generate captions, organize your own content ideas, and prepare posts faster.
             </p>
             <div className="hero-actions">
-              <a className="button primary" href={`mailto:${supportEmail}?subject=Get started with One Life Alliance`}>
+              <a className="button primary" href="#pricing">
                 Get started
                 <ArrowRight size={18} aria-hidden="true" />
               </a>
@@ -277,7 +277,7 @@ function HomePage() {
                 <h3>{plan.name}</h3>
                 <p className="price">{plan.price}</p>
                 <p>{plan.detail}</p>
-                <a className="button plan-button" href={`mailto:${supportEmail}?subject=${encodeURIComponent(plan.name)} access`}>
+                <a className="button plan-button" href="#contact">
                   Request access
                 </a>
               </article>
