@@ -67,7 +67,7 @@ const plans = [
 ];
 
 const faqs = [
-  ['Is this a physical product?', 'No. One Life Alliance is a digital SaaS tool for creator productivity.'],
+  ['Is this a physical product?', 'No. BUSH K LIMITED is a digital SaaS tool for creator productivity.'],
   ['Do you ship anything?', 'No. Digital access is provided online and no physical goods are sold or shipped.'],
   [
     'Can I cancel my subscription?',
@@ -84,7 +84,7 @@ const policyPages = {
   '/terms': {
     title: 'Terms of Service',
     intro:
-      'These terms explain the basic rules for using One Life Alliance and the CreatorCaption tool.',
+      'These terms explain the basic rules for using BUSH K LIMITED and the CreatorCaption tool.',
     sections: [
       {
         title: 'Use of the service',
@@ -99,7 +99,7 @@ const policyPages = {
       {
         title: 'Digital access',
         body:
-          'One Life Alliance provides digital SaaS access only. Account access may depend on payment status, plan selection, and compliance with these terms.',
+          'BUSH K LIMITED provides digital SaaS access only. Account access may depend on payment status, plan selection, and compliance with these terms.',
       },
       {
         title: 'Support',
@@ -111,7 +111,7 @@ const policyPages = {
   '/privacy': {
     title: 'Privacy Policy',
     intro:
-      'This policy describes the information One Life Alliance may collect to provide and improve the service.',
+      'This policy describes the information BUSH K LIMITED may collect to provide and improve the service.',
     sections: [
       {
         title: 'Information we may collect',
@@ -138,12 +138,12 @@ const policyPages = {
   '/refund': {
     title: 'Refund Policy',
     intro:
-      'This policy explains refund and cancellation handling for digital access to One Life Alliance.',
+      'This policy explains refund and cancellation handling for digital access to BUSH K LIMITED.',
     sections: [
       {
         title: 'Digital product',
         body:
-          'One Life Alliance is a digital SaaS product. No physical goods are sold or shipped.',
+          'BUSH K LIMITED is a digital SaaS product. No physical goods are sold or shipped.',
       },
       {
         title: 'Refund requests',
@@ -168,8 +168,8 @@ function Header() {
   return (
     <header className="site-header">
       <a className="brand" href="/">
-        <span className="brand-mark">OL</span>
-        <span>One Life Alliance</span>
+        <span className="brand-mark">BK</span>
+        <span>BUSH K LIMITED</span>
       </a>
       <nav aria-label="Primary navigation">
         <a href="/#features">Features</a>
@@ -187,7 +187,7 @@ function HomePage() {
       <main>
         <section className="hero">
           <div className="hero-copy">
-            <p className="eyebrow">CreatorCaption by One Life Alliance</p>
+            <p className="eyebrow">CreatorCaption by BUSH K LIMITED</p>
             <h1>Caption and content tools for creators</h1>
             <p className="hero-text">
               Generate captions, organize your own content ideas, and prepare posts faster.
@@ -233,7 +233,7 @@ function HomePage() {
             <p className="eyebrow">What it does</p>
             <h2>Simple tools for creators preparing their own content</h2>
             <p>
-              One Life Alliance is built for content you own, created yourself, or have permission
+              BUSH K LIMITED is built for content you own, created yourself, or have permission
               to use.
             </p>
           </div>
@@ -361,7 +361,7 @@ function PolicyPage({ page }) {
   return (
     <main className="policy-page">
       <section className="policy-hero">
-        <p className="eyebrow">One Life Alliance</p>
+        <p className="eyebrow">BUSH K LIMITED</p>
         <h1>{page.title}</h1>
         <p>{page.intro}</p>
       </section>
@@ -383,7 +383,7 @@ function PolicyPage({ page }) {
 function Footer() {
   return (
     <footer className="footer">
-      <p>One Life Alliance provides digital creator productivity tools.</p>
+      <p>BUSH K LIMITED provides digital creator productivity tools.</p>
       <nav aria-label="Footer navigation">
         <a href="/terms">Terms of Service</a>
         <a href="/privacy">Privacy Policy</a>
@@ -399,11 +399,11 @@ function App() {
 
   React.useEffect(() => {
     const title = page
-      ? `${page.title} | One Life Alliance`
-      : 'One Life Alliance | Caption and content tools for creators';
+      ? `${page.title} | BUSH K LIMITED`
+      : 'BUSH K LIMITED | Caption and content tools for creators';
     const description = page
-      ? `${page.title} for One Life Alliance, a digital SaaS creator productivity tool.`
-      : 'One Life Alliance helps individual creators generate captions, organize content ideas, and prepare posts faster with clear digital access options.';
+      ? `${page.title} for BUSH K LIMITED, a digital SaaS creator productivity tool.`
+      : 'BUSH K LIMITED helps individual creators generate captions, organize content ideas, and prepare posts faster with clear digital access options.';
     document.title = title;
     document
       .querySelector('meta[name="description"]')
